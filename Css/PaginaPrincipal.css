@@ -1,0 +1,101 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: black;
+    padding: 20px;
+}
+.cabecalho{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+h1{
+    cursor: pointer;
+    transition: 1s all;
+}
+h1:active{
+    transform: scale(1.2);
+}
+nav{
+    position: absolute;
+    top: 130px;
+    right: 120px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav li a{
+    padding: 3px;
+}
+nav a {
+    text-transform: uppercase;
+    color:#303183;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 1s all;
+}
+nav a:hover{
+    color: #e18b92;
+    text-decoration: underline;
+}
+nav a:active{
+    color: #7c74ee;
+}
+li img{
+    transition: 1s all;
+}
+li img:hover{
+    transform: scale(1.1);
+}
+.menu{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+main{
+    background: linear-gradient(rgb(0, 0, 0), rgb(23, 23, 75) );
+}
+.menu li { 
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    color: #4a4cca;
+    border: 3px solid rgb(23, 23, 75);
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 1s all;
+}
+.menu li:hover{
+    border-color: #e18b92;
+}
+.menu li:active{
+    border-color: #7c74ee;
+}
+.menu li:hover p{
+    font-size: 22px;
+    font-weight: bold;
+}
+.descricao-menu{
+    font-size: 18px;
+}
+footer{
+    background: linear-gradient(rgb(23, 23, 75), rgb(0, 0, 0) );
+    text-align: center;
+    padding: 40px 0;
+    transition: 1s all;
+}
+footer img{
+    cursor: pointer;
+}
+.copyrith{
+    color: rgb(124, 116, 238);
+    margin: 40px 0 0;
+    font-size: 13px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/reset.css">
+    <link rel="stylesheet" href="Css/Formulário_Senha.css">
+    <script src="JS/Formulário_Senhas.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <title>Servidor de Senhas - Formulario Senha</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <h1><img src="img/Cadastramento-senhas.png" alt="Formulario de Senhas"></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="PaginaPrincipal.html">Menu Inicial</a></li>
+                <li><a href="Formulário.html">Formulario</a></li>
+                <li><a href="Formulário_Senha.html">Formulário Senha</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="senha">Senha</label>
+            <button id="senha" class="input-padrão" onclick="coloque_senha()">Coloque sua senha aqui!</button>
+            <label for="confirme">Confirme senha</label>
+            <button id="senha" class="input-padrão" onclick="coloque_confirmar_senha()">Confirme sua senha aqui!</button>
+
+            <label for="enviar">Enviar Senha</label>
+            <input type="submit" value="Enviar Senha" class="input-padrão" onclick="cadastro_confirmar()">
+        </form>
+
+    </main>
+    <footer>
+        <img src="img/rodape.png" alt="rodape">
+        <p class="copyrith">&copy; Copyrith Servidor de Senhas - 2022 </p>
+    </footer>
+</body>
+
+</html>

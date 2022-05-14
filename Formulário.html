@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/reset.css">
+    <script src="JS/Formulário.js"></script>
+    <link rel="stylesheet" href="Css/Formulário.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <title>Formulario - Servidor de Senhas</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <h1><img src="img/registro-online.png" alt="logo - registro-online"></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="PaginaPrincipal.html">Menu Inicial</a></li>
+                <li><a href="Formulário.html">Formulário</a></li>
+                <li><a href="Formulário_Senha.html">Formulario Senha</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrão" required placeholder="Nome Completo">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrão" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrão" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco" class="input-padrão" required placeholder="Seu endereço">
+
+            <label for="url">Url do site para proteção</label>
+            <input type="url" id="url" class="input-padrão" required placeholder="https://www.google.com.br">
+
+            <fieldset>
+                <legend>Em caso de suspeita, como prefere nosso contato?</legend>
+
+                <label for="radio-email"><input type="radio" value="email" name="contato">Email</label>
+
+                <label for="radio-telefone"><input type="radio" value="telefone" name="contato"
+                        id="radio-telefone">Telefone</label>
+
+
+                <label for="radio-whatsapp"><input type="radio" value="whatsapp" name="contato" id="radio-whatsapp"
+                        checked>WhatsApp</label>
+            </fieldset>
+
+
+            <label><input type="checkbox" class="chekbox" checked>Gostaria de receber por email sempre que você usar
+                alguma
+                de suas senhas?</label>
+
+                <Legend>Assim que terminar esse Formulario, vá para o Form de Senhas para fazer o cadastro da sua.</Legend>
+                <input type="submit" value="Enviar Formulário" class="enviar">
+
+
+        </form>
+
+    </main>
+
+    <footer>
+        <img src="img/rodape.png" alt="rodape">
+        <p class="copyrith">&copy; Copyrith Servidor de Senhas - 2022 </p>
+    </footer>
+</body>
+
+</html>

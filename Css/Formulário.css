@@ -1,0 +1,121 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(23, 23, 75);
+}
+header{
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(23, 23, 75) );
+    padding: 20px;
+}
+.cabecalho{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+h1{
+    cursor: pointer;
+    transition: 1s all;
+}
+h1:active{
+    transform: scale(1.2);
+}
+nav{
+    position: absolute;
+    top: 130px;
+    right: 120px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav li a{
+    padding: 3px;
+}
+nav a{
+    text-transform: uppercase;
+    color:#303183;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 1s all;
+}
+nav a:hover{
+    color: #e18b92;
+    text-decoration: underline;
+}
+nav a:active{
+    color: #7c74ee;
+}
+main{
+    background: linear-gradient(rgb(23, 23, 75), rgb(23, 23, 75) );
+    color: #000000;
+    width: 940px;
+    padding: 13px;
+}
+form{
+    width: 940px;
+    margin: 40px 0;
+    padding: 10px;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px; 
+    padding-top: 5px;
+}
+legend{
+    font-weight: bold;
+    color: #000000;
+}
+.input-padrão{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    margin-left: 25px;
+    padding: 20px 0;
+    background-color: #303183;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 4 all;
+    cursor: pointer;
+}
+.enviar:hover{
+    transform: scale(1.1);
+}
+footer{
+    background: linear-gradient(rgb(23, 23, 75), rgb(0, 0, 0));
+    text-align: center;
+    padding: 40px 0;
+    transition: 1s all;
+}
+footer img{
+    cursor: pointer;
+}
+footer img:hover{
+    transform: scale(1.1);
+}
+.copyrith{
+    color: rgb(124, 116, 238);
+    margin: 40px 0 0;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
